@@ -3,15 +3,10 @@
 	If you come across a problem please make sure to report it in the Discord Server!
 ]]
 
-_G.Settings = {
-    Active = true; -- Main toggle
-    Message = ""; -- The message you want to say. Ex. "You should join my group called noob gang"
-}
-
---// \\--
 local Settings = _G.Settings
 
 --// Find Nearest Player \\--
+
 while Settings.Active do wait(10)
     local localHum = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
     local closestPlayer = nil
