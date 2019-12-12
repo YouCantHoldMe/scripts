@@ -1,14 +1,3 @@
---[[
-	Group Recuriting Plaza Bot/Trade Hangout Bot made by YouCantHoldMe
-	If you come across a problem please make sure to report it in the Discord Server!
-]]
-
-_G.Settings = {
-    Active = true; -- Main toggle
-    Message = ""; -- The message you want to say. Ex. "You should join my group called noob gang"
-    Cooldown = 10; -- The script will run again after 10 seconds have gone by.
-}
-
 --// \\--
 local Settings = _G.Settings
 
